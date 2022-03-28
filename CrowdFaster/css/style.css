@@ -1,0 +1,729 @@
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../font/Segoe UI/Segoe UI.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  margin: 0px;
+  font-family: Segoe UI, Arial, sans-serif, monospace;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.header-blocks {
+  position: relative;
+  height: 100%;
+}
+
+.Menu-top {
+  position: relative;
+  border-bottom: solid 1px #dee2e6;
+  padding: 5px 0px;
+}
+
+.Logo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.Logo img {
+  position: relative;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header-menu {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  display: inline-block;
+}
+
+.header-spisok {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  padding: 0px;
+  list-style: none;
+  margin: 5px;
+}
+.header-spisok li {
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 10px;
+}
+.header-spisok li a {
+  position: relative;
+  text-decoration: none;
+  color: #666666;
+}
+
+.search-block {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.search-knopka {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  background: none;
+  border: none;
+  outline: none;
+}
+.search-knopka img {
+  position: relative;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.search-knopka:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.search-knopka:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.search-input {
+  position: relative;
+  height: 100%;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  outline: none;
+}
+.search-input:hover {
+  border-bottom: solid 1px #dee2e6;
+}
+
+.header-profile {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-block;
+  border-left: solid 1px #dee2e6;
+  padding: 6px 12px;
+}
+
+.login {
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.login-id {
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.options {
+  position: relative;
+  text-align: center;
+}
+
+.option-link {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin: 5px;
+}
+.option-link img {
+  position: relative;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.logout {
+  position: relative;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.logout-link {
+  position: relative;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #126fff;
+}
+
+/*/////////////////////////////////////*/
+.Menu-down {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-bottom: solid 1px #dee2e6;
+}
+
+.header-menu-down {
+  position: relative;
+  width: 100%;
+}
+.header-menu-down ul {
+  position: relative;
+  width: 100%;
+  height: auto;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.header-menu-down ul li {
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+.header-menu-down ul li a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 20px 25px;
+  margin: 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.header-menu-down ul li a:hover {
+  background: black;
+  color: white;
+}
+
+/*_________________________________________________________________________________________________________________________*/
+#Content {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.Content-title {
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.form-blocks {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  display: inline-block;
+  margin: 10px;
+}
+.form-blocks label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.iput-radio {
+  position: relative;
+  height: auto;
+  margin: 5px;
+}
+
+.Content-input {
+  position: relative;
+  width: 65%;
+  height: 50px;
+  padding: 10px 10px;
+  border: solid 2px grey;
+  background: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.content-knopka {
+  position: relative;
+  left: -5px;
+  height: 50px;
+  padding: 5px 25px;
+  background: black;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin: 0px;
+}
+.content-knopka:hover {
+  background: grey;
+  color: black;
+}
+
+.Content-download {
+  position: relative;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.Content-link {
+  position: relative;
+  font-size: 13px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.Content-link:hover {
+  color: lightgrey;
+}
+
+/*_________________________________________________________________________________________________________________________*/
+#Contant2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.Contant2-table {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 30px 0px;
+}
+.Contant2-table tr {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.Contant2-table th {
+  position: relative;
+  font-size: 13px;
+  font-weight: bold;
+  color: #787878;
+  padding: 15px 10px;
+  border-top: 1px grey dashed;
+  border-bottom: 1px grey dashed;
+}
+.Contant2-table td {
+  position: relative;
+  font-size: 13px;
+  font-weight: 700;
+  color: #787878;
+  padding: 15px 10px;
+  border-bottom: 1px grey dashed;
+}
+.Contant2-table td p {
+  position: relative;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.table-start {
+  position: relative;
+  text-align: left;
+}
+
+.table-title {
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.table-center {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+}
+
+.progress {
+  position: relative;
+  width: 100%;
+  height: 30px;
+}
+
+.progress-bar {
+  background-color: #dbbc01;
+}
+
+.progress-bargreen {
+  background-color: #a9d3a9;
+}
+
+.progress-text {
+  position: absolute;
+  width: 100%;
+  color: grey;
+  margin: 0px;
+  text-align: center;
+  padding: 5px;
+}
+
+.progress-stroka {
+  position: relative;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.table-knopka {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  background: #42a888;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.Paggination-nav {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  height: 100px;
+}
+
+.Ragination {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  float: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Number-show {
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.pagination {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-link {
+  color: black;
+  border: none;
+}
+.page-link:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: grey;
+  background: none;
+}
+.page-link:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/*____________________________________________________________________________________________________________________________*/
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: black;
+}
+
+.foooter-blocks {
+  position: relative;
+  padding: 0px 25px;
+}
+
+.footer-block-top {
+  position: relative;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Footer-blocks-title {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer-blocks-spisok {
+  position: relative;
+  height: auto;
+  list-style: none;
+  padding: 0px;
+}
+.footer-blocks-spisok li {
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.footer-blocks-spisok li a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.footer-blocks-spisok li a:hover {
+  color: lightgrey;
+}
+
+.footer-down-title {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-menu {
+  position: relative;
+  height: auto;
+  list-style: none;
+  padding: 0px;
+}
+.footer-menu li {
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 10px;
+  text-align: left;
+}
+.footer-menu li a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.footer-menu li a:hover {
+  color: grey;
+}
+
+.footer-blocks-down {
+  position: relative;
+}
+
+.footer-adres {
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding-left: 10px;
+}
+.footer-adres::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 13px;
+  height: 15px;
+  background: url("../img/placeholder.svg") no-repeat 50% 50%/cover;
+  -webkit-transform: translate(-11px, 2px);
+          transform: translate(-11px, 2px);
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+/*____________________________________________________________________________________________________________________________*/
+@media only screen and (max-width: 1199px) {
+  .table-center span {
+    display: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .header-block {
+    text-align: center;
+  }
+
+  .header-blocks {
+    margin-bottom: 20px;
+  }
+
+  .header-menu-down {
+    margin: 0px;
+  }
+
+  .header-menu-down ul li a {
+    padding: 20px 19px;
+  }
+
+  .form-blocks {
+    margin: 10px 5px;
+  }
+
+  .Content-block {
+    text-align: center;
+  }
+
+  .Content-blocks {
+    margin-bottom: 20px;
+  }
+
+  .Contant2-table {
+    display: block;
+    width: 100%;
+  }
+
+  .table-center span {
+    display: none;
+  }
+
+  .Contant2-table tbody, .Contant2-table thead {
+    display: block;
+  }
+
+  .Contant2-table thead {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    float: left;
+  }
+
+  .Contant2-table tbody tr {
+    display: table-cell;
+  }
+
+  .Contant2-table tbody {
+    overflow-x: auto;
+  }
+
+  .table-body-block {
+    overflow-x: auto;
+  }
+
+  .Table-header {
+    border-right: solid 1px grey;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: block;
+  }
+
+  .Contant2-table th {
+    display: block;
+  }
+
+  .Contant2-table th {
+    border: none;
+    border-bottom: solid 1px grey;
+    width: 100%;
+    text-align: center;
+    padding: 21px 10px;
+  }
+
+  .Contant2-table td {
+    display: block;
+  }
+
+  .footer-block-top, .footer-blocks-spisok li, .footer-blocks-down {
+    text-align: center;
+  }
+
+  .footer-block-top {
+    margin: 0px;
+  }
+
+  .foooter-blocks {
+    margin-bottom: 25px;
+  }
+
+  .footer-adres {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 399px) {
+  .header-spisok {
+    width: 100%;
+  }
+
+  .header-spisok li {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .header-menu {
+    width: 100%;
+  }
+
+  .header-menu-down ul li {
+    display: block;
+  }
+
+  .form-blocks {
+    display: block;
+    text-align: center;
+  }
+
+  .Content-download {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 293px) {
+  .Content-input {
+    width: 100%;
+  }
+
+  .content-knopka {
+    left: 0%;
+    width: 100%;
+  }
+
+  .header-blocks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .header-profile {
+    border-left: none;
+    border-top: solid 1px #dee2e6;
+    width: 100%;
+  }
+}
